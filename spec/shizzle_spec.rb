@@ -4,6 +4,7 @@ require('shizzle')
 
 describe ('String#shizzle') do
   it("changes letter s to z unless it is the first letter of the word (for a single word input)") do
+
     expect(("slipSs").shizzle()).to(eq("slipSz"))
   end
 
